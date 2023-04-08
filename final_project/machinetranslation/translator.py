@@ -5,9 +5,8 @@ Translator Service between English and French
 from ibm_watson import LanguageTranslatorV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
-URL = "https://api.au-syd.language-translator.watson.cloud.ibm.com/\
-instances/edf87cd4-3b78-4b3d-8454-4956a1a154a3"
-API = "01IupcugzStV0ilm1Z6FKT_PsfJ2eNG7g6UE3P0KH1ke"
+URL = ""
+API = ""
 
 authenticator = IAMAuthenticator(API)
 language_translator = LanguageTranslatorV3(
